@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Strcon {
+    public static void main(String[] args) {
+        StringBuffer S1 = new StringBuffer("Alien");
+        System.out.println("Enter the String which need to be reversed");
+        Scanner sc= new Scanner(System.in);
+        String S2=sc.next();
+        StringBuffer S4=new StringBuffer(S2);
+       S4.reverse();
+       System.out.println("The string"  +S2+ "which is reversed is "  +S4);
+    }
+}
